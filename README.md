@@ -46,26 +46,20 @@ pip install -r requirements.txt
 
 # Usage
 ## Running tracker1.py
-
    1. Open a terminal.
    2. Run the script:
-
-    ```bash
+```bash
     python tracker1.py
-    ```
-
+```
     3. Enter the phone number with the country code when prompted (e.g., +14155552671).
     4. The script will output the location and carrier information, and generate an HTML file (Location.html) with a map showing the location.
 
 ## Running gsmgpstracker.py
-
     1. Open a terminal.
     2. Run the script:
-
-    ```bash
+```bash
     python gsmgpstracker.py
-    ```
-
+```
     3. A GUI window will appear.
     4. Enter a phone number in the input field and click the "Track Country" button.
     5. The application will display the country associated with the phone number.
@@ -73,18 +67,19 @@ pip install -r requirements.txt
 # Dependencies
 
 ## The following Python libraries are required for these scripts:
-
-    `phonenumbers`
-    `folium`
-    `opencage`
-    `pycountry`
-    `tkinter`
-    `phone_iso3166`
-
+```bash
+    phonenumbers
+    folium
+    opencage
+    pycountry
+    tkinter
+    phone_iso3166
+```
 You can install all dependencies using the provided requirements.txt file.
 
 # Example Outputs
- `tracker1.py`
+
+    tracker1.py
 
 ### Console Output:
 ```bash
@@ -96,7 +91,7 @@ service provider : AT&T
 ### Generated HTML File:
     A map centered at the location with a marker showing the place name.
 
-    `gsmgpstracker.py`
+        gsmgpstracker.py
 
 ### GUI Window:
         Displays a text box to enter the phone number.
