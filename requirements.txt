@@ -1,0 +1,6 @@
+phonenumbers
+folium
+opencage
+pycountry
+tkinter
+phone_iso3166
